@@ -26,12 +26,12 @@ public class Konstruktor {
     }
 
     public double obliczObwod() {
-        return 2 * Math.PI * promien;
+        return 2 * Math.PI ;
     }
 
     public double obliczPole() {
         double pole;
-        pole = Math.PI * promien * promien;
+        pole = Math.PI * promien;
         return pole;
     }
 
